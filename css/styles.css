@@ -1,0 +1,573 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #f4f7fc;
+	font-family: 'Oxygen', sans-serif;
+}
+
+table, tbody, td, tfoot, th, thead, tr, tt {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+	font-family: "Tahoma";
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+table th span, table td  span{
+    font-weight:700;
+}
+
+
+table th, table td {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding: 2px;
+    text-align: center;
+}
+
+.schedule_class_name {
+	font-weight: 300;
+    color: #666;
+}
+
+.schedule_course_name {
+    font-weight: bold;
+    color: #1d63c3;
+}
+
+.schedule_group_name {
+	font-weight: 300;
+	color: #ba0000;
+}
+	
+.captionClass {
+    background: #eeeeee;
+}
+
+.dayClass {
+    background: #eeeeee;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table {
+    border: 1px solid #999;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+
+
+#header-nav {
+	background-color: #dae8fc;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/egeLogo.png') no-repeat;
+	background-size: 150px 150px;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+#collapsable-nav  #nav-list > li > a
+{
+	padding: 5px 8px;
+}
+
+.panel-footer > .container > div
+{
+	padding-left:25px;
+	padding-right:25px;
+	display:block;
+	min-height:120px;
+}
+
+#Content-Title{
+	text-align:center;
+	font-size: 36px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.panel-footer > .container > div:nth-child(-n+3){
+	border-right: dotted 2px;
+}
+
+.panel-footer > .container .Title{
+	font-weight:700;
+	margin-bottom:30px;
+	font-size:22px;
+}
+
+.panel-footer > .container{
+	color:black;
+}
+
+.socialMediaList:hover > ul{
+	display: block!important;
+	margin:0px;
+	padding:0px;
+}
+
+.socialMediaList{
+	color:white;
+}
+
+.socialMediaList:hover{
+	color:red;
+}
+
+.socialMediaList > ul{
+	list-style-type: none;
+	font-size:36px;
+}
+
+.socialMediaList > ul li{
+	float:left;
+	padding-right:5px;
+}
+
+.socialMediaList > ul{
+	margin:auto;
+}
+
+#UsefullLinks {
+	width:180px;
+}	
+
+#UsefullLinks > div p{
+	display:none;
+}
+
+#UsefullLinks > div {
+	width:88px;
+	text-align:center;
+	font-size:32px;
+	font-weight:300;
+	margin-bottom:20px;
+}
+
+#UsefullLinks > div:hover > p {
+	display: block!important;
+	font-size:16px;
+}
+
+.socialMediaList > ul li a:hover{
+	text-decoration: none;
+}
+
+.fa-facebook-square{
+	color:#3b5998 !important; 
+}
+
+.fa-linkedin-square{
+	color:#0274b3 !important; 
+}
+
+.fa-twitter-square{
+	color:#2daae2 !important; 
+}
+
+.fa-youtube-square{
+	color:red !important; 
+}
+ 
+.navbar-brand h1 {
+	color: #557c3e;
+	font-size: 2.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin:auto;
+	text-align:center;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p { 
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.navbar-brand p span { 
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+#phone {
+	margin-top: 5px;
+}
+#phone a { /* Phone number */
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #b3b3b3;
+	border-top: 0;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+#address p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+.NumbeTileBox{
+	height: 150px;
+	width: 150px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+.NumbeTileBox:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+.NumbeTileBox span {
+	position: absolute;
+	bottom: 50px;
+	right: 0;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.TileBox{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+.TileBox:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+.TileBox span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+#Egitim-tile {
+	background: url('../images/Egitim.png') no-repeat;
+	background-position: center;
+	background-size: 300px;
+}
+#Personel-tile {
+	background: url('../images/Personel.png') no-repeat;
+	background-position: center;
+	background-size: 300px;
+}
+
+#Lisans-tile {
+	background: url('../images/Lisans.jpg') no-repeat;
+	background-position: center;
+	background-size: 350px;
+}
+
+#YukLisans-tile {
+	background: url('../images/YuksekLisans.jpg') no-repeat;
+	background-position: center;
+	background-size: 390px;
+}
+
+#Guz-tile {
+	background: url('../images/Guz.jpg') no-repeat;
+	background-position: center;
+	background-size: 370px;
+}
+
+#Bahar-tile {
+	background: url('../images/Bahar.jpg') no-repeat;
+	background-position: center;
+	background-size: 350px;
+}
+
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+}
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+	font-size: .6em;
+}
+.menu-item-photo {
+	position: relative;
+	border: 2px solid #3F0C1F; 
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+.menu-item-description {
+	padding-right: 30px;
+}
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#logo-img {
+		background: url('../images/egeLogo.png') no-repeat;
+		background-size: 100px 100px;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+	
+	.navbar-brand h1 {
+		font-size: 29px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1 {
+		font-size: 28px;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.navbar-brand h1 { /* Restaurant name */
+		height:100%;
+		font-size: 4.5vw; /* 1vw = 1% of viewport width */
+	}
+	.navbar-brand p { /* Kosher cert */
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img { /* Star-K */
+		height: 20px;
+	}
+
+	#collapsable-nav a { /* Collapsed nav menu text */
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span { /* Collapsed nav menu glyph */
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#call-btn > a {
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+	}
+	#xs-deliver {
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+	/* End Header */
+
+	/* Footer */
+	.panel-footer section {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.panel-footer section:nth-child(3) {
+		margin-bottom: 0; /* margin already exists on the whole row */
+	}
+	.panel-footer section hr {
+		width: 50%;
+	}
+	/* End Footer */
+
+	/* Home Page */
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+
+	.menu-item-photo {
+		margin-right: auto;
+	}
+	.menu-item-tile .menu-item-price {
+		text-align: center;
+	}
+	.menu-item-description {
+		text-align: center;;
+	}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	/* Header */
+	.navbar-brand h1 { /* Restaurant name */
+		padding-left:0px;
+		padding-right:0px;
+	}
+	/* End Header */
+	
+	/* Home page */
+	#menu-tile, #specials-tile {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+}
+
+
+

@@ -1,0 +1,238 @@
+[
+	  {
+		'Yariyil':1,
+		'Ad': 'Algoritma ve Programlama I',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B4','Aciklama':''}
+		},
+		'Gun':1,
+		'Saat':{'S1':2,'S2':3,'S3':4},
+		'Hoca':'Yrd. Doç. Dr. Özgür GÜMÜŞ'
+	  },
+	  {
+		'Yariyil':1,
+		'Ad': 'Fizik I',
+		'Siniflar': {
+			'Sinif1':{ 'Derslik':'B6','Aciklama':'Tek No' },
+			'Sinif2':{ 'Derslik':'B3','Aciklama':'Çift No'}
+		},
+		'Gun':2,
+		'Saat':{'S1':2,'S2':3,'S3':4},
+		'Hoca':'Prof. Dr. Cüneyt ÇELİKTAŞ [Tek No] / Doç. Dr. Rena ÇİFTÇİ [Çift No]'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Türk Dili I',
+		'Siniflar': {
+			'Sinif1':{ 'Derslik':'B3','Aciklama':'Tek No' },
+			'Sinif2':{ 'Derslik':'B7','Aciklama':'Çift No'}
+		},
+		'Gun':1,
+		'Saat':{'S1':5,'S2':6},
+		'Hoca':'Okt. Hasan Çağrı ÖLÇÜCÜ [Tek No] / Okt. Fatma TEKİN [Çift No]'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Fizik I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'Makina Z04','Aciklama':'Grup 1'}
+		},
+		'Gun':1,
+		'Saat':{'S1':7,'S2':8},
+		'Hoca':'Prof. Dr. Cüneyt ÇELİKTAŞ [Tek No] / Doç. Dr. Rena ÇİFTÇİ [Çift No]'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Technical English',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B7','Aciklama':''}
+		},
+		'Gun':4,
+		'Saat':{'S1':2,'S2':3,'S3':4},
+		'Hoca':'Prof. Dr. Yasemin TOPALOĞLU'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Atatürk İlkeleri ve İnkılap Tarihi I',
+		'Siniflar': {
+			'Sinif1':{ 'Derslik':'B7','Aciklama':'Tek No' },
+			'Sinif2':{ 'Derslik':'B8','Aciklama':'Çift No'}
+		},
+		'Gun':2,
+		'Saat':{'S1':5,'S2':6},
+		'Hoca':'Okt. Belkız AYAZ ÇOBAN [Tek No] / Okt. Latif DAŞDEMİR [Çift No]'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Bilgisayar Mühendisliğine Giriş (Sadece Alttan Alan Öğrenciler için)',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B7','Aciklama':''}
+		},
+		'Gun':2,
+		'Saat':{'S1':7},
+		'Hoca':'Yrd. Doç. Dr. Özgü CAN'
+	  },	  
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Üniversite Yaşamına Geçiş',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B4','Aciklama':''}
+		},
+		'Gun':2,
+		'Saat':{'S1':8},
+		'Hoca':'Yrd. Doç. Dr. Ahmet EGESOY'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Matematik I',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B7','Aciklama':''}
+		},
+		'Gun':3,
+		'Saat':{'S1':2,'S2':3,'S3':4},
+		'Hoca':'Doç. Dr. Vecdi AYTAÇ'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Matematik I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B7','Aciklama':''}
+		},
+		'Gun':3,
+		'Saat':{'S1':5,'S2':6},
+		'Hoca':'Doç. Dr. Vecdi AYTAÇ'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Sözlü ve Yazılı İletişim',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B7','Aciklama':''}
+		},
+		'Gun':3,
+		'Saat':{'S1':7,'S2':8},
+		'Hoca':'Yrd. Doç. Dr. Hidaye Aydan BİLGİLİER'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Algoritma ve Programlama I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'(Sinan Yılmaz Lab.) (Ege Lab.)','Aciklama':'Grup 1'}
+		},
+		'Gun':5,
+		'Saat':{'S1':1,'S2':2},
+		'Hoca':'Yrd. Doç. Dr. Özgür GÜMÜŞ'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Algoritma ve Programlama I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'(Sinan Yılmaz Lab.) (Ege Lab.)','Aciklama':'Grup 2'}
+		},
+		'Gun':5,
+		'Saat':{'S1':3,'S2':4},
+		'Hoca':'Yrd. Doç. Dr. Özgür GÜMÜŞ'
+	  },
+	  {
+	  		'Yariyil':1,
+		'Ad': 'Algoritma ve Programlama I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'(Sinan Yılmaz Lab.) (Ege Lab.)','Aciklama':'Grup 3'}
+		},
+		'Gun':5,
+		'Saat':{'S1':5,'S2':6},
+		'Hoca':'Yrd. Doç. Dr. Özgür GÜMÜŞ'
+	  },
+	  {
+		'Yariyil':1,
+		'Ad': 'Fizik I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'Makina Z04','Aciklama':'Grup 2'}
+		},
+		'Gun':4,
+		'Saat':{'S1':7,'S2':8},
+		'Hoca':'Prof. Dr. Cüneyt ÇELİKTAŞ [Tek No] / Doç. Dr. Rena ÇİFTÇİ [Çift No]'
+	  },
+	  {
+		'Yariyil':1,
+		'Ad': 'Fizik I Uyg.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'Makina Z04','Aciklama':'Grup 3'}
+		},
+		'Gun':5,
+		'Saat':{'S1':7,'S2':8},
+		'Hoca':'Prof. Dr. Cüneyt ÇELİKTAŞ [Tek No] / Doç. Dr. Rena ÇİFTÇİ [Çift No]'
+	  }
+	  
+	  ,
+	  {
+		'Yariyil':2,
+		'Ad': 'Fizik II',
+		'Siniflar': {
+			'Sinif1':{ 'Derslik':'B7','Aciklama':'Grup 1' },
+			'Sinif2':{ 'Derslik':'B8','Aciklama':'Grup 2'}
+		},
+		'Gun':2,
+		'Saat':{'S1':2,'S2':3},
+		'Hoca':'Prof. Dr. Cüneyt ÇELİKTAŞ [Tek No] / Doç. Dr. Rena ÇİFTÇİ [Çift No]'
+	  },
+	  {
+		'Yariyil':3,
+		'Ad': 'Olasılık ve İstatistik',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B4','Aciklama':''}
+		},
+		'Gun':3,
+		'Saat':{'S1':2,'S2':3},
+		'Hoca':'Prof. Dr. Serdar KORUKOĞLU'
+	  },
+	  {
+		'Yariyil':4,
+		'Ad': 'Introduction to Computer Science',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B4','Aciklama':''}
+		},
+		'Gun':4,
+		'Saat':{'S1':5,'S2':6,'S3':7},
+		'Hoca':'Yrd. Doç. Dr. Özgü CAN'
+	  },
+	  {
+		'Yariyil':5,
+		'Ad': 'Mikroişlemciler',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B6','Aciklama':''}
+		},
+		'Gun':2,
+		'Saat':{'S1':5,'S2':6,'S3':7},
+		'Hoca':'Yrd. Doç. Dr. Şebnem BORA'
+	  },
+	  {
+		'Yariyil':6,
+		'Ad': 'Bilgisayar Grafikleri',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B4','Aciklama':''}
+		},
+		'Gun':3,
+		'Saat':{'S1':5,'S2':6,'S3':7},
+		'Hoca':'Prof. Dr. Aybars UĞUR'
+	  },
+	  {
+		'Yariyil':7,
+		'Ad': 'Gömülü ve Gerçek Zamanlı Sist.',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B7','Aciklama':''}
+		},
+		'Gun':5,
+		'Saat':{'S1':2,'S2':3,'S3':4},
+		'Hoca':'Yrd. Doç. Dr. Mustafa ENGİN'
+	  },
+	  {
+		'Yariyil':8,
+		'Ad': 'İşlemsel Zeka',
+		'Siniflar': {
+			'Sinif1':{'Derslik':'B8','Aciklama':''}
+		},
+		'Gun':3,
+		'Saat':{'S1':1,'S2':2,'S3':3},
+		'Hoca':'Prof. Dr. Aybars UĞUR'
+	  }
+]

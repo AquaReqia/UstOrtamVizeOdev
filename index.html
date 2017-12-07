@@ -1,16 +1,109 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Module 4 Solution Starter</title>
-  <script>
-    var names = []; // DO NOT REMOVE
-  </script>
-  <script src="SpeakHello.js"></script>
-  <script src="SpeakGoodBye.js"></script>
-  <script src="script.js"></script>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 <body>
-  <h1>Module 4 Solution Starter</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header pull-left col-md-9">
+          <a href="index.html" class="pull-left visible-md visible-lg col-xs-3 col-md-2">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand pull-center col-xs-12 col-sm-8 col-md-10">
+            <a href="index.html"><h1>Ege Üniversitesi Bilgisayar Mühendisliği Bölümü</h1></a>
+          </div>
+
+          <button id="navbarToggle" type="button" class="pull-right navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse pull-right col-sm-12 col-xs-12 col-md-2">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Hakkımızda</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Personel</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-duplicate"></span><br class="hidden-xs"> Eğitim</a>
+            </li>
+         
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="main-content" class="container">
+  
+  
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+		<div class="col-md-3">
+			<div class="Title text-center">Yararlı Linkler</div>
+			<div id="UsefullLinks" >
+				<div class="fa fa-users"><p>Mezunlar</p></div>
+				<div class="fa fa-volume-up"><p>E-Ses</p></div>
+				
+				<div class="fa fa-envelope"><p>Mail</p></div>
+				<div class="fa fa-calculator"><p>Hesap Makinesi</p></div>
+				
+				<div class="fa fa-map"><p>Harita</p></div>
+				<div class="fa fa-map"><p>Harita 2</p></div>
+			</div>
+		</div>
+		
+		<div class="col-md-3">
+			<div class="Title text-center">Adress</div>
+			<p>Ege Üniversitesi Bilgisayar Mühendisliği Adress</p>
+		</div>
+		
+		<div class="col-md-3">
+			<div class="Title text-center">İletişim</div>
+			<p>Ege Üniversitesi Bilgisayar Mühendisliği İletişim</p>
+		</div>
+		
+		<div class="col-md-3">
+			<div class="Title text-center">Sosyal Medya</div>
+			<div style="font-size:48px" class="socialMediaList">
+				<div ><p class="fa fa-share-alt hidden-xs"></p></div>
+				<ul class="visible-xs">
+					<li><a href="#" class="fa fa-facebook-square"></a></li>
+					<li><a href="#" class="fa fa-linkedin-square"></a></li>
+					<li><a href="#" class="fa fa-twitter-square"></a></li>
+					<li><a href="#" class="fa fa-youtube-square"></a></li>
+				</ul>
+			<div>
+			
+		</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
